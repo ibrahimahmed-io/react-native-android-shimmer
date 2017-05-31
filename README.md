@@ -62,13 +62,30 @@ Simple shimmering effect for android in React Native. Based on <a href="https://
 
 NOTE: <code>Shimmer</code> may only have one child and currently doesn't work with <code>View</code>.
 
+### Example with Text
 ```javascript
 import AndroidShimmer from 'react-native-android-shimmer';
 
 <AndroidShimmer
-  baseAlpha={0.5}
-  duration={2000}>
-  <Text>Loading...</Text>
+    baseAlpha={0.5}
+    duration={2000}>
+    <Text>Loading...</Text>
+</AndroidShimmer>
+```
+
+### Example with Image
+```javascript
+import AndroidShimmer from 'react-native-android-shimmer';
+
+<AndroidShimmer
+    style={{height: 250, flexDirection: 'column', backgroundColor: 'transparent'}}
+    baseAlpha={0.8}
+    duration={2000}>
+    <View style={{flex: 1, backgroundColor: 'transparent'}}>
+        <Image style={{height: 250, flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}} source={{uri: "https://images.pexels.com/photos/59963/crocus-flower-blossom-bloom-59963.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb"}}>
+            <Text style={{fontSize: 47, color: '#FFF'}}>Lorem Ipsum</Text>
+        </Image>
+    </View>
 </AndroidShimmer>
 ```
 
