@@ -1,6 +1,6 @@
 {
   "name": "react-native-android-shimmer",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Simple android shimmering effect for any view in React Native",
   "main": "index.js",
   "keywords": [
