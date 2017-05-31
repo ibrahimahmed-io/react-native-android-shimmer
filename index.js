@@ -10,13 +10,14 @@ import {
     View
 } from 'react-native';
 
-var ReactNative = require('ReactNative');
-var UIManager = require('UIManager');
+var ReactNative, {
+    UIManager
+} = require('react-native');
 
 const ReactAndroidShimmerManager = UIManager.ReactNativeAndroidShimmer;
 const Constants = ReactAndroidShimmerManager.Constants;
 
-class AndroidShimmer extends Component {
+export default class AndroidShimmer extends Component {
     props: {
         baseAlpha ? : number,
         duration ? : number,
