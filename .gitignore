@@ -1,0 +1,16 @@
+/*.log
+/git
+/node_modules
+/android/build
+/android/*.iml
+/.gradle
+/gradle
+/gradle.properties
+/gradlew
+/local.properties
+/*.bat
+/settings.gradle
+/.idea
+/build.gradle
+/build
+/react-native-android-shimmer.iml

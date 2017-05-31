@@ -1,0 +1,29 @@
+{
+  "name": "react-native-android-shimmer",
+  "version": "0.2.4",
+  "description": "Simple android shimmering effect for any view in React Native",
+  "main": "index.js",
+  "keywords": [
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "mobile",
+    "android",
+    "shimmer",
+    "animation"
+  ],
+  "author": {
+    "name": "Ibrahim Ahmed",
+    "email": "ibrahimtorbany.dev@gmail.com"
+  },
+  "homepage": "https://github.com/IbrahimAmin/react-native-android-shimmer",
+  "bugs": {
+    "url": "https://github.com/IbrahimAmin/react-native-android-shimmer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/IbrahimAmin/react-native-android-shimmer.git"
+  },
+  "license": "MIT"
+}
