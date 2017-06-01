@@ -17,13 +17,13 @@
     "name": "Ibrahim Ahmed",
     "email": "ibrahimtorbany.dev@gmail.com"
   },
-  "homepage": "https://github.com/IbrahimAmin/react-native-android-shimmer",
+  "homepage": "https://github.com/Ibrahim-GHub/react-native-android-shimmer",
   "bugs": {
-    "url": "https://github.com/IbrahimAmin/react-native-android-shimmer/issues"
+    "url": "https://github.com/Ibrahim-GHub/react-native-android-shimmer/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/IbrahimAmin/react-native-android-shimmer.git"
+    "url": "git://github.com/Ibrahim-GHub/react-native-android-shimmer.git"
   },
   "license": "MIT"
 }
